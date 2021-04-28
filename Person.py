@@ -96,7 +96,7 @@ def checkCollision(self,other):
     if distance <= self.radius +other.radius:
         return True
     return False
-def updateCollisionVelocities(self,other):
+def updateCollisionVelocity(self,other):
         #socially distanced people
         if not self.socialDistancing and not other.socialDistancing:
             tempVX=self.vx

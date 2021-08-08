@@ -53,7 +53,7 @@ class Person():
                         self.status = "sick"
         
         
-    #movement of the "people" 
+    #movement of the "people depicted as either green balls if healthy or red if infected" 
     def move(self):
         if not self.socialDistancing:
             self.x += self.vx
